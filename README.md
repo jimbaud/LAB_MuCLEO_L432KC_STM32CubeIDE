@@ -1,7 +1,7 @@
 # Présentation du programme pour la carte MuCLEO L432KC (clone de la Nucleo)
 
 <div align="center">
-  <img src="./PinoutL432KC_Ljpg.jpg" alt="Pinout L432KC" width="1000"/>
+  <img src="./Images/MuCLEO_L432_Pinout.png" alt="Pinout L432KC" width="1000"/>
   <p><em>Pinout L432KC</em></p>
 </div>
 

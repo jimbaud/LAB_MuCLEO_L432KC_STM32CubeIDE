@@ -27,7 +27,7 @@ Ces projets permettent de démontrer diverses fonctionnalités de la carte, tell
 │   └── bin/                    # Fichiers binaires prêts à flasher
 │
 ├── README.md                   # Ce fichier de présentation
-└── img/                        # Images et captures d'écran de la configuration
+└── Images/                        # Images et captures d'écran de la configuration
 ```
 Chaque dossier **projet_x** est un projet complet que vous pouvez importer dans **STM32CubeIDE**. Vous y trouverez également un dossier **bin/** contenant les fichiers binaire (".bin", ".hex", ".elf") prêts à être flashés sur la carte.
 
@@ -53,7 +53,7 @@ Vous devriez maintenant voir le projet importé dans l’explorateur de projets 
 4. Accédez à l’onglet **File Download**, cliquez sur **Browse** et choisissez le fichier binaire à flasher. Ce fichier se trouve dans le dossier `bin/` de chaque projet (ég. `projet_1/bin/projet_1.bin`).
 5. Cliquez sur **Download** et patientez jusqu'à la fin du flashage.
 
-Vous pouvez également copier le fichier ".bin" directement dans le lecteur **NUCLEO** qui apparaît comme une clé USB sur votre PC.
+Vous pouvez également copier le fichier ".bin" directement dans le lecteur qui apparaît comme une clé USB sur votre PC lors d ela connexion de la carte de développement (le format doit être du type BIN, ELF ou HEX).
 
 ---
 

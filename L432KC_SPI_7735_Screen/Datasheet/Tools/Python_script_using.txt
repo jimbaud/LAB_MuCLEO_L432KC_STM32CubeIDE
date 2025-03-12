@@ -1,0 +1,1 @@
+For using image-to-mem.py on windows : use a CMD window, go to your working folder and enter : image-to-mem.py logo.png >> testimg.h 

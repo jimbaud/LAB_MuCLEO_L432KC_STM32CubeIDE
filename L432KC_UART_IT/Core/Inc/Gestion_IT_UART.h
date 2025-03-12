@@ -14,9 +14,11 @@
 #include "stdio.h"
 #include "string.h"
 
+#define MSG_SIZE 5  // Taille du buffer de réception
+
 extern int resultat_int; // Variable globale contenant le résultat
-extern unsigned char MSG1[32]; // Variable globale du buffer de réception
 extern UART_HandleTypeDef huart2;
+extern unsigned char MSG1[MSG_SIZE];
 
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart);
 
